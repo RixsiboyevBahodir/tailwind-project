@@ -11,6 +11,7 @@ import Fouter from "./components/shared/Fouter";
 import Header from "./components/shared/Header";
 import Navbar from "./components/shared/Navbar";
 
+
 export default function App() {
   return (
     <main>
@@ -19,7 +20,7 @@ export default function App() {
         <div className="border-t border-amber-700"></div>
         <Header />
       </header>
-      <CardInfo />
+      <CardInfo/>
       <ImgCard />
       <Cloe />
       <Pelican />
