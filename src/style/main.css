@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body{
+    font-family: "Cardo", serif;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
