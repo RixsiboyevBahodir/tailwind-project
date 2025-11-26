@@ -5,7 +5,7 @@ import imageFour from '../assets/images/features/image4.svg'
 
 export default function ImgCard() {
     return (
-        <div className='flex pb-30'>
+        <div className='flex pb-3 md:pb-30'>
             <img src={imageOne} alt="" className='w-[25%]' />
             <img src={imageTwo} alt="" className='w-[25%]' />
             <img src={imageThree} alt="" className='w-[25%]' />

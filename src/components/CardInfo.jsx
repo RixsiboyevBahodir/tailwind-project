@@ -5,8 +5,8 @@ import tree from '../assets/images/features/tree.svg'
 
 export default function CardInfo() {
     return (
-        <div className='flex items-center justify-between gap-16 py-11 px-15'>
-            <div className='flex cantiner gap-12'>
+        <div className='flex-col sm:flex-row flex items-center justify-between gap-16 py-11 px-15'>
+            <div className=' grid-cols-1 sm:grid-cols-2 grid lg:grid-cols-4 cantiner gap-12'>
                 <div className='flex items-center gap-3'>
                     <img src={carImg} alt="car-img" />
                     <p>Free Shipping</p>

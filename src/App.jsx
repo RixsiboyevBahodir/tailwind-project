@@ -1,7 +1,8 @@
+import AboutUs from "./components/AboutUs";
 import Alada from "./components/Alada";
 import Alba from "./components/Alba";
 import Batea from "./components/Batea";
-import CardInfo from "./components/cardInfo";
+import CardInfo from "./components/CardInfo";
 import Cloe from "./components/Cloe";
 import ImgCard from "./components/ImgCard";
 import OurHome from "./components/OurHome";
@@ -29,6 +30,7 @@ export default function App() {
       <Batea />
       <OurHome/>
       <PartnerCard/>
+      <AboutUs/>
       <Fouter/>
     </main>
   )

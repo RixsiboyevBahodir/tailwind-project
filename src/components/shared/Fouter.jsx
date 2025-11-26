@@ -10,9 +10,9 @@ import paypalImg from '../../assets/images/important/paypal.svg'
 export default function Fouter() {
     return (
         <footer className="bg-gray-200">
-            <div className="px-[10%] py-10">
-                <div className="flex w-full justify-between ">
-                    <div className=" grid grid-cols-3 gap-20 w-2/3">
+            <div className="lg:px-[10%] py-10">
+                <div className="flex flex-col gap-10 w-full items-center justify-between md:flex-row">
+                    <div className=" grid sm:grid-cols-3 lg:gap-20 w-2/3">
                         <div className="flex flex-col items-center">
                             <h4 className="pb-6 uppercase font-bold text-2lx">About</h4>
                             <div className="flex flex-col items-center gap-1.5">
@@ -45,36 +45,36 @@ export default function Fouter() {
                     </div>
                     <div className="flex flex-col items-center gap-3">
                         <p>Don’t miss any news and exclusive offers!</p>
-                        <button className="bg-white border px-8">Newsletter subscripite</button>
+                        <button className="bg-white border px-3 lg:px-8">Newsletter subscripite</button>
                         <div className='flex'>
                             <img src={fscImg} alt="" />
                             <img src={oneTree} alt="" />
                         </div>
                         <div className='flex items-center gap-2'>
                             <div className='flex items-center'>
-                                <FaStar size={24} className='bg-green-400 p-1 text-white'/>
-                                <FaStar size={24} className='bg-green-400 p-1 text-white'/>
-                                <FaStar size={24} className='bg-green-400 p-1 text-white'/>
-                                <FaStar size={24} className='bg-green-400 p-1 text-white'/>
+                                <FaStar size={24} className='bg-green-400 p-1 text-white' />
+                                <FaStar size={24} className='bg-green-400 p-1 text-white' />
+                                <FaStar size={24} className='bg-green-400 p-1 text-white' />
+                                <FaStar size={24} className='bg-green-400 p-1 text-white' />
                                 <FaStarHalf size={24} className='bg-green-400 p-1 text-white' />
                             </div>
                             <div className='flex items-center'>
-                                <FaStar size={22} className='text-green-400'/>
+                                <FaStar size={22} className='text-green-400' />
                                 <p>Trustpilot</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='flex px-[10%] justify-between pb-10'>
+            <div className='flex flex-col items-center gap-3 px-[10%] justify-between pb-10 md:flex-row'>
                 <p>© Copyright – WOODENDOT 2021</p>
-                <div className='flex'>
-                    <img src={visaImg} alt="" />
-                    <img src={masterImg} alt="" />
-                    <img src={klarnaImg} alt="" />
-                    <img src={paypalImg} alt="" />
+                <div className='flex gap-1 flex-col sm:flex-row'>
+                    <img src={visaImg} alt="" className='max-w-[66px]' />
+                    <img src={masterImg} alt="" className='max-w-[66px]' />
+                    <img src={klarnaImg} alt="" className='max-w-[66px]' />
+                    <img src={paypalImg} alt="" className='max-w-[66px]' />
                 </div>
-                <p>Terms & Conditions | Privacy Policy & Cookies</p>
+                <p className='text-center'>Terms & Conditions | Privacy Policy & Cookies</p>
             </div>
         </footer>
     )

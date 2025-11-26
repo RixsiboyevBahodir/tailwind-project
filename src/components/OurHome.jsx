@@ -7,10 +7,10 @@ export default function OurHome() {
         <div className='flex flex-col items-center pt-14'>
             <h1 className='text-[32px] font-bold pb-5'>Our pieces inside your home</h1>
             <p className='text-[18px] pb-9'>Get inspired by our products in real-life. Tag us and be featured!</p>
-            <div className='flex gap-3'>
-                <img src={ourHomeOne} alt="Home card img" />
-                <img src={ourHomeTwo} alt="Home card img" />
-                <img src={ourHomeThree} alt="Home card img" />
+            <div className=' grid grid-cols-3 gap-3'>
+                <img src={ourHomeOne} alt="Home card img" className='hidden sm:block' />
+                <img src={ourHomeTwo} alt="Home card img" className=' col-span-3 sm:col-span-1' />
+                <img src={ourHomeThree} alt="Home card img" className='hidden sm:block' />
             </div>
             <ul className='flex gap-1 pt-5'>
                 <li className='w-2 h-2 bg-black'></li>
