@@ -1,4 +1,4 @@
-import DesignImg from '../assets/images/important/Design.svg'
+import DesignImg from '../assets/images/important/design.svg'
 import FootprintImg from '../assets/images/important/footprint.svg'
 import MadeImg from '../assets/images//important/made.svg'
 import WoodImg from '../assets/images/important/wood.svg'
