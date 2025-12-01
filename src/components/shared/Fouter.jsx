@@ -16,36 +16,36 @@ export default function Fouter() {
                         <div className="flex flex-col items-center">
                             <h4 className="pb-6 uppercase font-bold text-2lx">About</h4>
                             <div className="flex flex-col items-center gap-1.5">
-                                <a href="">About Us</a>
-                                <a href="">Design</a>
-                                <a href="">Sustainability</a>
-                                <a href="">We plant trees</a>
-                                <a href="">Our Story</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >About Us</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Design</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Sustainability</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >We plant trees</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Our Story</a>
                             </div>
                         </div>
                         <div className="flex flex-col items-center">
                             <h4 className="pb-6 uppercase font-bold text-2lx">Help</h4>
                             <div className="flex flex-col items-center gap-1.5">
-                                <a href="">Holiday Offers FAQ</a>
-                                <a href="">FAQ</a>
-                                <a href="">Warranty</a>
-                                <a href="">We plant trees</a>
-                                <a href="">Our Story</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Holiday Offers FAQ</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >FAQ</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Warranty</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >We plant trees</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Our Story</a>
                             </div>
                         </div>
                         <div className="flex flex-col items-center">
                             <h4 className="pb-6 uppercase font-bold text-2lx">More</h4>
                             <div className="flex flex-col items-center gap-1.5">
-                                <a href="">Where to find us</a>
-                                <a href="">FAQ</a>
-                                <a href="">Warranty</a>
-                                <a href="">We plant trees</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Where to find us</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >FAQ</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >Warranty</a>
+                                <a href="" className='hover:text-amber-800 transition-all' >We plant trees</a>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center gap-3">
                         <p>Don’t miss any news and exclusive offers!</p>
-                        <button className="bg-white border px-3 lg:px-8">Newsletter subscripite</button>
+                        <button className="bg-white border px-3 lg:px-8 cursor-pointer hover:border-white hover:bg-gray-200 hover:text-white transition-all">Newsletter subscripite</button>
                         <div className='flex'>
                             <img src={fscImg} alt="" />
                             <img src={oneTree} alt="" />
